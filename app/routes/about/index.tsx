@@ -3,13 +3,15 @@ const AboutPage = () => {
         <div className='max-w-5xl mx-auto px-6 py-16 bg-gray-900'>
             {/* intro */}
             <div className="flex flex-col md:flex-row md:items-start items-center gap-10 mb-12">
-                <img src="/images/profile.jpg" alt="profile" className="w-40 h-40 rounded-full object-cover border-4 border-blue-500 shadow-md" />
+                <div className="w-40 h-40 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-5xl font-bold text-white border-4 border-blue-500 shadow-md">
+                    AJ
+                </div>
                 <div>
                     <h1 className="text-3xl font-bold text-white mb-2">
-                        Hey, I'm Brad Pitt 👋
+                        Hey, I'm Alex Johnson 👋
                     </h1>
                     <p className="text-gray-300 text-lg">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab doloribus dolorum illum. Architecto hic minima vitae odit, velit ipsam quam. Unde exercitationem a iusto blanditiis?
+                        A passionate Computer Science graduate with a focus on full-stack web development. I love building efficient, scalable applications and exploring new technologies to solve real-world problems.
                     </p>
                 </div>
             </div>
@@ -19,7 +21,7 @@ const AboutPage = () => {
                     Mission
                 </h2>
                 <p className="text-gray-300 leading-relaxed">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id molestiae totam earum nemo at velit inventore, corrupti quia sed iusto sequi ipsum vitae aperiam architecto ut voluptatem harum numquam doloribus.
+                    My goal is to create impactful software solutions that make a difference in people's lives. I'm committed to writing clean, maintainable code and continuously improving my skills to stay current with industry best practices and emerging technologies.
                 </p>
             </div>
             {/* Tech stack */}
@@ -29,17 +31,20 @@ const AboutPage = () => {
             <ul className="flex flex-wrap gap-4 text-sm text-gray-300">
                 {/* listing technologies as array of strings */}
                 {[
+                    'JavaScript',
+                    'TypeScript',
                     'React',
                     'Next.js',
-                    'Vue',
-                    'Tailwind CSS',
                     'Node.js',
-                    'Laravel',
-                    'Prisma',
-                    'MongoDB',
+                    'Express',
+                    'Python',
+                    'Java',
                     'PostgreSQL',
-                    'Appwrite',
+                    'MongoDB',
+                    'Git',
                     'Docker',
+                    'AWS',
+                    'Tailwind CSS',
                 ].map((tech) => (
                     <li key={tech} className='bg-gray-700 px-3 py-1 rounded-md'>
                         {tech}
