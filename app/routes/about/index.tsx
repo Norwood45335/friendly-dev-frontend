@@ -6,10 +6,10 @@ const AboutPage = () => {
                 <img src="/images/profile.jpg" alt="profile" className="w-40 h-40 rounded-full object-cover border-4 border-blue-500 shadow-md" />
                 <div>
                     <h1 className="text-3xl font-bold text-white mb-2">
-                        Hey, I'm Brad Pitt 👋
+                        Hey, I'm a Friendly Dev 👋
                     </h1>
                     <p className="text-gray-300 text-lg">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab doloribus dolorum illum. Architecto hic minima vitae odit, velit ipsam quam. Unde exercitationem a iusto blanditiis?
+                        Welcome to my digital space! I'm a passionate web developer who loves creating beautiful, functional, and user-friendly applications that make a difference.
                     </p>
                 </div>
             </div>
@@ -19,7 +19,7 @@ const AboutPage = () => {
                     Mission
                 </h2>
                 <p className="text-gray-300 leading-relaxed">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id molestiae totam earum nemo at velit inventore, corrupti quia sed iusto sequi ipsum vitae aperiam architecto ut voluptatem harum numquam doloribus.
+                    My mission is to help businesses and individuals bring their ideas to life through clean, efficient, and scalable web solutions. I believe in writing code that not only works today but stands the test of time, and I'm committed to staying current with the latest technologies and best practices.
                 </p>
             </div>
             {/* Tech stack */}
