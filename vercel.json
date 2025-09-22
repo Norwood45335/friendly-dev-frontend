@@ -4,12 +4,6 @@
   "installCommand": "npm install --include=dev",
   "framework": null,
   "outputDirectory": "build/client",
-  "functions": {
-    "api/index.js": {
-      "runtime": "nodejs18.x",
-      "includeFiles": "build/server/**"
-    }
-  },
   "routes": [
     {
       "src": "/assets/(.*)",
