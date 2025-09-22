@@ -8,7 +8,7 @@ const AboutPreview = () => {
                 👋 About Me
             </h2>
             <p className="text-gray-200 mb-4 max-w 4xl">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eum facilis a? Vitae aliquid obcaecati itaque odio expedita quidem delectus impedit! Accusamus deleniti at, aperiam enim non similique facilis cum!
+                Welcome to my digital space! I'm a passionate web developer who loves creating beautiful, functional, and user-friendly applications that make a difference. I specialize in modern web technologies and enjoy helping businesses bring their ideas to life.
             </p>
             <Link to='/about' className='inline-block text-blue-400 hover:underline text-sm'>
                 Learn More About Me

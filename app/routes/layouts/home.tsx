@@ -4,7 +4,7 @@ import Hero from "~/components/Hero";
 const HomeLayout = () => {
     return (
         <>
-            <Hero name='Brad Pitt'/>
+            <Hero name='a Friendly Dev'/>
             <section className="max-w-6xl mx-auto px-6 my-8">
                 <Outlet />
             </section>
