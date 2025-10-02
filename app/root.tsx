@@ -57,6 +57,15 @@ export default function App() {
   return <Outlet />;
 }
 
+// Add this for debugging hydration issues
+if (typeof window !== 'undefined') {
+  window.addEventListener('error', (e) => {
+    if (e.message.includes('Hydration') || e.message.includes('418')) {
+      console.error('Hydration error detected:', e);
+    }
+  });
+}
+
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
   let message = "Oops!";
   let details = "An unexpected error occurred.";
